@@ -4,17 +4,14 @@ This is the README for your extension "snippet-text-edit-test". After writing up
 
 ## Features
 
-Describe specific features of your extension including screenshots of your extension in action. Image paths are relative to this README file.
+a small test plugin for testing the vscode SnippetTextEdit api in theia.
+This just applys a a Snippet Text Edit at the start of the currently opened file and a file named "file2.json" in the workspace. 
 
-For example if there is an image subfolder under your extension project workspace:
-
-\!\[feature X\]\(images/feature-x.png\)
-
-> Tip: Many popular extensions utilize animations. This is an excellent way to show off your extension! We recommend short, focused animations that are easy to follow.
+as by requirements, in the currently active file the cursor is set to the snippets parameter while in file2 its insertet as a normal textEdit without properties
 
 ## Requirements
 
-If you have any requirements or dependencies, add a section describing those and how to install and configure them.
+
 
 ## Extension Settings
 
